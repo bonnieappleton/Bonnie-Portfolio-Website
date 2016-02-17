@@ -1,0 +1,52 @@
+body{
+	background-color: black;
+}
+
+.navbar{
+	background-image: url('IMG_9418.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: right;
+	height: 350px;
+	border-bottom: 3px solid white;
+}
+
+#title-box{
+	
+}
+
+.title h1{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px 5px 5px 10px;
+	color: #e65c00;
+	font-size: 40px;
+	font-weight: normal;
+	font-family: 'lobster', cursive;
+}
+
+.contact{
+	color: white;
+}
+
+.image-links{
+	/*padding: 20px;*/
+}
+
+.image-links .box{
+	color: black;
+	font-size: 20px;
+	background-color: #e65c00;
+	padding: 80px 10px 80px 10px;
+	text-align: center;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+

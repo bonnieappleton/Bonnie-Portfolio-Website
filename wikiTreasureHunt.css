@@ -1,0 +1,45 @@
+.navbar{
+	background-color: #00004d;
+	height: 100px;
+}
+
+.title {
+	color: #e6004c;
+	text-align: center;
+
+}
+
+.jumbotron{
+	background-image: url('http://www.free-vectors.com/images/Backgrounds/009-free-vector-green-pattern-background-design.png');
+
+}
+
+.jumbotron .container{
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.question .hidden{
+	display: normal;
+}
+
+.answer-field{
+	display: inline;
+}
+
+.answer-field form{
+	width: 400px;
+	margin-right: 10px;
+}
+
+.answer-field button{
+	height: 35px;
+}
+
+.correct-answer{
+	margin-top: 10px;
+
+}
+
+#question11 .clue p{
+	color: white;
+}
