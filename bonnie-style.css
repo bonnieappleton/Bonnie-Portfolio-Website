@@ -24,9 +24,21 @@ body{
   font-weight: 300;
 }
 
- .title-block{
+#github-link img{
+  height: 70px;
+}
+
+#github-link img:hover{
+  height: 72px;
+}
+
+.title-block{
   background-color: rgba(0, 0, 0, 0.8);
- }
+}
+
+
+
+
 
 .box{
   height: 180px;
@@ -49,7 +61,7 @@ body{
 }
 
 .boxes a:hover{
-  text-decoration: none !important;
+  text-decoration: none;
   cursor: pointer;
 }
 
