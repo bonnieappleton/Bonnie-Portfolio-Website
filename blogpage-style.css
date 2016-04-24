@@ -1,9 +1,12 @@
 body  {
-  background-color: rgb(184, 222, 209);
+  background-color: rgb(5, 15, 70);
+  background-image: url(https://image.freepik.com/free-vector/golden-confetti-anniversary-background_23-2147537105.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav.navbar  {
-  background-color: rgb(5, 15, 70);
+  /*background-color: rgb(5, 15, 70);*/
 }
 
 .social-icons {
@@ -14,18 +17,49 @@ nav.navbar  {
   height: 30px;
 }
 
+.navbar-brand {
+  font-family: 'Fredericka the Great', cursive;
+  color: rgba(163, 214, 202, 0.99);
+  font-size: 40px;
+}
+
+.navbar-links {
+  color: rgb(184, 222, 209);
+}
+
 .sidebar  {
   display: block;
-  background-color: white;
+  background-color: rgba(163, 214, 202, 0.99);
   height: 500px;
+  buffer: 10px;
   /*margin: 0px 5px 0px 0px;*/
 }
 
-.blog-posts {
+.sidebar-widget {
+  background-color: orange;
+  margin: 5px;
+  buffer: 5px;
+}
+
+.sidebar-widget p {
+
+
+}
+
+.blog-content {
   display: block;
-  background-color: white;
+  /*background-color: white;*/
   height: 500px;
-  /*margin: 0px 0px 10px 5px;*/
+}
+
+.blog-post {
+  display: block;
+  background-color: rgba(163, 214, 202, 0.99);
+
+}
+
+.blog-post img {
+  align: center;
 }
 
 .footer {
