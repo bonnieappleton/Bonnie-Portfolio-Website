@@ -1,12 +1,23 @@
-.navbar {
-	background-color: #00004d;
-	height: 100px;
+.container-flex .row {
+	margin-right: 0px;
+}
+.title {
+	background-color: black;
 }
 
-.title {
-	color: #e6004c;
-	text-align: center;
+.title h1 {
+	color: rgb(227, 134, 25);
+  font-family: 'Codystar', sans-serif;
+  font-size: 45px;
+}
 
+.title h1:hover {
+  cursor: pointer;
+  color: rgb(241, 230, 81);
+}
+
+.title a:hover {
+		text-decoration: none;
 }
 
 .jumbotron {
